@@ -1,13 +1,10 @@
+import { Blank } from "./blank";
+
+new Blank();
+
 /**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
-
-import { Realm } from "./moncode";
-
-new Realm
-
-
+ * codingame example code
+ */
 let inputs: string[] = readline().split(" ");
 const W: number = parseInt(inputs[0]);
 const H: number = parseInt(inputs[1]);
